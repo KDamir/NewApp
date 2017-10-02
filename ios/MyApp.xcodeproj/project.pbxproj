@@ -47,6 +47,7 @@
 		F76765A91E2FD7BF00D56750 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76765A81E2FD7BF00D56750 /* CoreData.framework */; };
 		F76765AB1E2FD7CB00D56750 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76765AA1E2FD7CB00D56750 /* SystemConfiguration.framework */; };
 		F76766071E30303E00D56750 /* fishing.caf in Resources */ = {isa = PBXBuildFile; fileRef = F76766061E30303E00D56750 /* fishing.caf */; };
+		004A5A0C999E4474AA3E69F2 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B6DC7C9975740B5883EB1C2 /* Feather.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -340,6 +341,7 @@
 		F76765AA1E2FD7CB00D56750 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F76766061E30303E00D56750 /* fishing.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fishing.caf; sourceTree = "<group>"; };
 		FFC542EE5FF84276BA0B444F /* RCTOneSignal.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTOneSignal.xcodeproj; path = "../node_modules/react-native-onesignal/ios/RCTOneSignal.xcodeproj"; sourceTree = "<group>"; };
+		2B6DC7C9975740B5883EB1C2 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -594,6 +596,7 @@
 				02C44F6B811646B197516839 /* Octicons.ttf */,
 				C1096C7E6AE14670ACF29E4A /* SimpleLineIcons.ttf */,
 				D51E53A934694079B212495C /* Zocial.ttf */,
+				2B6DC7C9975740B5883EB1C2 /* Feather.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1078,6 +1081,7 @@
 				639DC04CC5804163B16A49D2 /* SimpleLineIcons.ttf in Resources */,
 				5FA92B285A6F4D118CFE3BDD /* Zocial.ttf in Resources */,
 				F738E3291E2F158D005CF6BD /* fontello.ttf in Resources */,
+				004A5A0C999E4474AA3E69F2 /* Feather.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

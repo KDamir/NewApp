@@ -97,15 +97,15 @@ android {
             abiFilters "armeabi-v7a", "x86"
         }
         manifestPlaceholders = [manifestApplicationId: "${applicationId}",
-                                onesignal_app_id: "my_onesignal_app_id",
-                                onesignal_google_project_number: "my_onesignal_google_project_number"]
+                                onesignal_app_id: "ed893aab-6b2e-4b67-8c78-ae834ab60107",
+                                onesignal_google_project_number: "248495356422"]
     }
     signingConfigs {
         release {
-            storeFile file(MYAPP_RELEASE_STORE_FILE)
-            storePassword MYAPP_RELEASE_STORE_PASSWORD
-            keyAlias MYAPP_RELEASE_KEY_ALIAS
-            keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            //storeFile file(MYAPP_RELEASE_STORE_FILE)
+            //storePassword MYAPP_RELEASE_STORE_PASSWORD
+            //keyAlias MYAPP_RELEASE_KEY_ALIAS
+            //keyPassword MYAPP_RELEASE_KEY_PASSWORD
         }
     }
     splits {

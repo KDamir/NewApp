@@ -11,8 +11,8 @@ class AppStore {
   @observable current_page = ''
   @observable current_puid = ''
   @observable tracker = new GoogleAnalyticsTracker('UA-xxxx-x')
-  @observable onesignal_app_id = "my_onesignal_app_id"
-  @observable onesignal_api_key = "Basic my_onesignal_api_key"
+  @observable onesignal_app_id = "ed893aab-6b2e-4b67-8c78-ae834ab60107"
+  @observable onesignal_api_key = "MTkxYThhMmMtNzJiNy00NWI4LTk5YWMtYjk1YzExNGViM2Jk"
 }
 
 const appStore = new AppStore()
